@@ -7,246 +7,225 @@
 <meta name="description" content="เล่ม 1 ทำให้คลิปแรกขายได้ เล่ม 2 ทำให้มันขายได้ทุกเดือน — โดย Kuim-เริ่มก่อนพร้อม @imrondachuda">
 <meta property="og:title" content="TikTok Affiliate ฉบับคนจริง">
 <meta property="og:description" content="เล่ม 1 ทำให้คลิปแรกขายได้ เล่ม 2 ทำให้มันขายได้ทุกเดือน · Bundle 279 บาท">
-
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600&amp;family=Noto+Sans+Thai:wght@300;400;600&amp;display=swap">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Kanit:wght@500;600;700;800;900&family=Sarabun:wght@300;400;500;600&display=swap">
 <style>
-body{margin:0;background:#ffffff}
-a{color:#0066cc;text-decoration:none}a:hover{text-decoration:underline}
-@keyframes rise{from{opacity:0;transform:translateY(28px)}to{opacity:1;transform:none}}
-@keyframes float{0%,100%{transform:translateY(0) rotate(var(--r,0deg))}50%{transform:translateY(-14px) rotate(var(--r,0deg))}}
-@keyframes glow{0%,100%{opacity:.6;transform:scale(1)}50%{opacity:1;transform:scale(1.1)}}
-@keyframes marquee{to{transform:translateX(-50%)}}
-@keyframes fill{from{width:0}}
-@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(0,113,227,.55)}70%{box-shadow:0 0 0 16px rgba(0,113,227,0)}100%{box-shadow:0 0 0 0 rgba(0,113,227,0)}}
-.in{animation:rise 1s cubic-bezier(.2,.7,.2,1) both}.d1{animation-delay:.12s}.d2{animation-delay:.25s}.d3{animation-delay:.4s}
+:root{--bg:#0F0A0B;--bg2:#170F11;--card:rgba(255,244,226,.05);--line:rgba(255,244,226,.12);--tx:#FFF4E2;--mu:#C9B6A0;--gold:#F2C14E;--red:#B3262E}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--bg);color:var(--tx);font:400 18px/1.6 Sarabun,system-ui,sans-serif;overflow-x:hidden}
+a{color:var(--gold);text-decoration:none}a:hover{text-decoration:underline}
+h1,h2,h3,.k{font-family:Kanit,sans-serif;line-height:1.15;margin:0}
+.w{max-width:1040px;margin:0 auto;padding:0 20px}
+section{position:relative;padding:96px 0}
+.eye{font:600 14px Kanit;letter-spacing:4px;color:var(--gold);text-transform:uppercase}
+.mu{color:var(--mu)}
+.glow{color:var(--gold);text-shadow:0 0 24px rgba(242,193,78,.55),0 0 70px rgba(242,193,78,.25)}
+.glowr{text-shadow:0 0 24px rgba(255,244,226,.4),0 0 80px rgba(179,38,46,.9)}
+.shine{background:linear-gradient(100deg,#F2C14E 20%,#FFF4E2 40%,#F2C14E 60%);background-size:250% 100%;-webkit-background-clip:text;background-clip:text;color:transparent;animation:shine 5s linear infinite}
+.orb{position:absolute;border-radius:50%;filter:blur(120px);pointer-events:none;animation:drift 14s ease-in-out infinite}
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;min-height:52px;padding:0 28px;border-radius:999px;font:700 18px Kanit;transition:transform .2s,box-shadow .2s}
+.btn:hover{transform:translateY(-2px) scale(1.03);text-decoration:none}
+.b1{background:var(--gold);color:#1A1011;box-shadow:0 0 40px rgba(242,193,78,.45);animation:pulse 2.6s infinite}
+.b2{border:2px solid rgba(242,193,78,.6);color:var(--tx)}
+.card{background:var(--card);border:1px solid var(--line);border-radius:22px;padding:28px}
+.gcard{border:2px solid rgba(242,193,78,.6);box-shadow:0 0 50px rgba(242,193,78,.15)}
+.grid{display:grid;gap:20px;grid-template-columns:repeat(auto-fit,minmax(260px,1fr))}
+.rv{opacity:0;transform:translateY(30px);transition:opacity .9s cubic-bezier(.2,.7,.2,1),transform .9s cubic-bezier(.2,.7,.2,1)}
+.rv.on{opacity:1;transform:none}
 .float{animation:float 6s ease-in-out infinite}
-.glow{animation:glow 7s ease-in-out infinite}
-.track{display:flex;width:max-content;animation:marquee 45s linear infinite}
-.pulse{animation:pulse 2.4s infinite}
-.grad{background:linear-gradient(90deg,#2997ff,#9fd3ff);-webkit-background-clip:text;background-clip:text;color:transparent}
-.grad2{background:linear-gradient(90deg,#0058b0,#0071e3);-webkit-background-clip:text;background-clip:text;color:transparent}
-a[style*="980px"]{transition:transform .25s ease,background-color .25s ease}a[style*="980px"]:hover{transform:scale(1.04);text-decoration:none}
-.lift{transition:transform .35s ease,box-shadow .35s ease}.lift:hover{transform:translateY(-6px);box-shadow:rgba(0,0,0,.14) 0 18px 40px}
-@supports (animation-timeline: view()){section:not(.nr)>div>*,.kids>*{animation:rise linear both;animation-timeline:view();animation-range:entry 0% entry 70%}.bar{animation:fill linear both;animation-timeline:view();animation-range:entry 40% cover 50%}}
-@media (prefers-reduced-motion: reduce){*{animation:none!important;transition:none!important}}
+nav{position:sticky;top:0;z-index:20;background:rgba(15,10,11,.82);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+nav .w{display:flex;align-items:center;justify-content:space-between;gap:12px;min-height:60px;flex-wrap:wrap}
+.track{display:flex;width:max-content;animation:mq 50s linear infinite}
+.track span{padding:0 28px;white-space:nowrap;font:500 19px Kanit}
+.cd{display:flex;gap:12px;justify-content:center;flex-wrap:wrap}
+.cd div{min-width:84px;padding:14px 10px;border-radius:16px;background:var(--card);border:1px solid var(--line);text-align:center}
+.cd b{display:block;font:800 40px Kanit;color:var(--gold);text-shadow:0 0 22px rgba(242,193,78,.5)}
+.q button{font:600 18px Kanit;color:var(--tx);background:var(--card);border:1px solid var(--line);border-radius:16px;padding:16px 18px;cursor:pointer;text-align:left;transition:border-color .2s,transform .2s}
+.q button:hover,.q button[aria-pressed=true]{border-color:var(--gold);transform:translateY(-2px)}
+.row{display:flex;gap:14px;padding:13px 0;border-top:1px solid var(--line)}.row i{font-style:normal;color:var(--gold);min-width:26px;font-family:Kanit}
+details{border-top:1px solid var(--line);padding:18px 0}summary{cursor:pointer;font:600 20px Kanit}details p{margin:10px 0 0;color:var(--mu)}
+.sticky{position:fixed;left:12px;right:12px;bottom:12px;z-index:30;display:none;align-items:center;justify-content:space-between;gap:10px;padding:10px 10px 10px 18px;border-radius:999px;background:rgba(23,15,17,.92);backdrop-filter:blur(10px);border:1px solid rgba(242,193,78,.5);box-shadow:0 0 40px rgba(242,193,78,.2)}
+.sticky.on{display:flex}
+@keyframes shine{to{background-position:-250% 0}}
+@keyframes drift{0%,100%{transform:translate(0,0)}50%{transform:translate(40px,-30px)}}
+@keyframes float{0%,100%{transform:translateY(0) rotate(var(--r,0))}50%{transform:translateY(-14px) rotate(var(--r,0))}}
+@keyframes pulse{0%{box-shadow:0 0 0 0 rgba(242,193,78,.55),0 0 40px rgba(242,193,78,.4)}70%{box-shadow:0 0 0 16px rgba(242,193,78,0),0 0 40px rgba(242,193,78,.4)}100%{box-shadow:0 0 0 0 rgba(242,193,78,0),0 0 40px rgba(242,193,78,.4)}}
+@keyframes mq{to{transform:translateX(-50%)}}
+@keyframes count{from{opacity:.2;transform:scale(.9)}}
+@media (prefers-reduced-motion:reduce){*{animation:none!important;transition:none!important}.rv{opacity:1;transform:none}}
 </style>
-
-<style>html{scroll-behavior:smooth}body{overflow-x:hidden}</style>
 </head>
 <body>
 
-<div style="width: 100%; font-family: Inter, 'Noto Sans Thai', system-ui, sans-serif; color: #1d1d1f; background: #ffffff; letter-spacing: -0.01em">
+<nav><div class="w">
+<div class="k" style="font-size:18px;font-weight:700">ฉบับ<span class="glow">คนจริง</span></div>
+<div style="display:flex;gap:18px;align-items:center;font-size:15px;flex-wrap:wrap">
+<a href="#check" style="color:var(--mu)">เช็คอาการ</a><a href="#books" style="color:var(--mu)">ในเล่มมีอะไร</a>
+<a class="btn b1" href="#buy" style="min-height:38px;padding:0 18px;font-size:15px;animation:none">ซื้อเลย</a>
+</div></div></nav>
 
-<nav style="position: sticky; top: 0; z-index: 10; background: rgba(255,255,255,0.92); border-bottom: 1px solid #d2d2d7">
-<div style="max-width: 980px; margin: 0 auto; padding: 10px 16px; display: flex; align-items: center; justify-content: space-between; gap: 16px; flex-wrap: wrap">
-<div style="font-size: 17px; font-weight: 600">ฉบับคนจริง</div>
-<div style="display: flex; align-items: center; gap: 20px; flex-wrap: wrap; font-size: 14px">
-<a href="#books" style="color: #474747">2 เล่มต่างกันยังไง</a>
-<a href="#who" style="color: #474747">เหมาะกับใคร</a>
-<a href="#buy" style="display: inline-flex; align-items: center; min-height: 32px; padding: 4px 14px; border-radius: 980px; background: #0071e3; color: #ffffff; font-size: 14px">ซื้อเลย</a>
+<header style="position:relative;overflow:hidden;padding:110px 0 90px;text-align:center">
+<div class="orb" style="width:620px;height:620px;left:50%;top:-120px;margin-left:-310px;background:var(--red);opacity:.35"></div>
+<div class="orb" style="width:420px;height:420px;left:-120px;top:280px;background:var(--gold);opacity:.14;animation-delay:-6s"></div>
+<div class="w" style="position:relative">
+<div class="eye rv">TikTok Affiliate · โดย Kuim-เริ่มก่อนพร้อม @imrondachuda</div>
+<h1 class="rv" style="margin-top:22px;font-size:clamp(46px,8vw,92px);font-weight:900"><span class="glowr">353,000 วิว</span><br><span class="shine">แต่มีคนตามแค่ 34</span></h1>
+<p class="rv mu" style="max-width:640px;margin:22px auto 0;font-size:clamp(19px,2.4vw,23px)">ผมเขียนทุกอย่างที่ลองเอง พลาดเอง แล้วแก้ได้ เป็น e-book 2 เล่ม<br><b style="color:var(--tx)">เล่ม 1 ทำให้คลิปแรกขายได้ · เล่ม 2 ทำให้มันขายได้ทุกเดือน</b></p>
+<div class="rv" style="display:flex;gap:12px;justify-content:center;flex-wrap:wrap;margin-top:34px">
+<a class="btn b1" href="https://buy.stripe.com/dRmfZ947ja4w3TJ7cM9EI02">ซื้อทั้ง 2 เล่ม 279 บาท</a>
+<a class="btn b2" href="https://line.me/R/ti/p/@465oiavi">อ่านเล่มฟรีก่อน</a>
+</div>
+<p class="rv mu" style="font-size:14px;margin-top:14px">ไม่แน่ใจ? แอดไลน์แล้วพิมพ์ “ฟรี” อ่านตัวอย่าง 10 นาทีก่อนตัดสินใจ</p>
+<div class="rv" style="margin-top:60px;display:flex;gap:28px;justify-content:center;flex-wrap:wrap">
+<div class="card gcard float" style="--r:-4deg;width:min(250px,78vw);aspect-ratio:3/4;display:flex;flex-direction:column;justify-content:space-between;text-align:left;background:#7A1C21">
+<div class="eye" style="font-size:11px;color:#F3D9B1">ฉบับคนจริง · เล่ม 1</div>
+<div><div class="k" style="font-size:30px;font-weight:800">คลิปแรก<br>ที่ขายได้</div><div style="margin-top:8px;font-size:14px;color:#F3D9B1">6 บท · Script Bank 10 ตัว · Score Card</div></div>
+<div style="font-size:12px;color:#F3D9B1">Kuim-เริ่มก่อนพร้อม</div></div>
+<div class="card gcard float" style="--r:4deg;animation-delay:-3s;width:min(250px,78vw);aspect-ratio:3/4;display:flex;flex-direction:column;justify-content:space-between;text-align:left">
+<div class="eye" style="font-size:11px">ฉบับคนจริง · เล่ม 2</div>
+<div><div class="k" style="font-size:30px;font-weight:800">ระบบที่ขายได้<br><span class="glow">ทุกเดือน</span></div><div style="margin-top:8px;font-size:14px" class="mu">6 บท · แผน 11.11/12.12 · ปฏิทิน 30 วัน</div></div>
+<div style="font-size:12px" class="mu">Kuim-เริ่มก่อนพร้อม</div></div>
 </div>
 </div>
-</nav>
+</header>
 
-<section class="nr" style="position: relative; overflow: hidden; background: #000000; color: #f5f5f7; padding: 104px 16px 96px; text-align: center">
-<div class="glow" aria-hidden="true" style="position: absolute; left: 50%; top: 50%; width: 900px; height: 900px; margin-left: -450px; border-radius: 50%; background: radial-gradient(circle, rgba(41,151,255,0.42) 0%, rgba(41,151,255,0) 62%); pointer-events: none"></div>
-<div style="position: relative; max-width: 980px; margin: 0 auto; display: flex; flex-direction: column; align-items: center; gap: 20px">
-<p class="in" style="margin: 0; font-size: 14px; color: #a1a1a6">E-book 2 เล่ม · 12 บท · Script Bank · ปฏิทิน 30 วัน · โดย Kuim-เริ่มก่อนพร้อม @imrondachuda</p>
-<h1 class="in d1" style="margin: 0; font-size: clamp(40px, 7vw, 72px); font-weight: 600; line-height: 1.1; letter-spacing: -0.02em">TikTok Affiliate<br>ฉบับคนจริง</h1>
-<p class="in d2" style="margin: 0; max-width: 700px; font-size: clamp(20px, 2.6vw, 26px); font-weight: 300; line-height: 1.4; color: #d2d2d7">เล่ม 1 ทำให้คลิปแรกขายได้<br>เล่ม 2 ทำให้มันขายได้ <span class="grad" style="font-weight: 600">ทุกเดือน</span></p>
-<div class="in d3" style="display: flex; gap: 12px; flex-wrap: wrap; justify-content: center; margin-top: 8px">
-<a class="pulse" href="https://buy.stripe.com/dRmfZ947ja4w3TJ7cM9EI02" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 22px; border-radius: 980px; background: #0071e3; color: #ffffff; font-size: 17px">ซื้อทั้ง 2 เล่ม 279 บาท</a>
-<a href="#diagnose" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 22px; border-radius: 980px; border: 1px solid #2997ff; color: #2997ff; font-size: 17px">เช็คก่อนว่าตรงกับเราไหม</a>
+<div aria-hidden="true" style="background:var(--gold);color:#1A1011;padding:16px 0;overflow:hidden">
+<div class="track"><span>“ถ้ายังใส่กางเกงทรงนี้ไปเรียนอยู่ — หยุดก่อน”</span><span>●</span><span>“กางเกงที่ทำให้ดูสูงขึ้น โดยไม่ต้องใส่ส้น”</span><span>●</span><span>“เสื้อเชิ้ตขาวตัวเดียว ใส่ได้ 5 งาน”</span><span>●</span><span>“3 อย่างที่ทำให้ผู้ชายดูแก่กว่าวัย”</span><span>●</span><span>“งบ 500 แต่งตัวให้ดูแพงได้ไหม?”</span><span>●</span><span>“ตัวเดียวกัน ราคาต่างกันสามเท่า”</span><span>●</span><span>“ถ้ายังใส่กางเกงทรงนี้ไปเรียนอยู่ — หยุดก่อน”</span><span>●</span><span>“กางเกงที่ทำให้ดูสูงขึ้น โดยไม่ต้องใส่ส้น”</span><span>●</span><span>“เสื้อเชิ้ตขาวตัวเดียว ใส่ได้ 5 งาน”</span><span>●</span><span>“3 อย่างที่ทำให้ผู้ชายดูแก่กว่าวัย”</span><span>●</span><span>“งบ 500 แต่งตัวให้ดูแพงได้ไหม?”</span><span>●</span><span>“ตัวเดียวกัน ราคาต่างกันสามเท่า”</span><span>●</span></div>
 </div>
-<div class="in d3" style="margin-top: 56px; display: flex; gap: 32px; flex-wrap: wrap; justify-content: center">
-<div class="float" style="--r: -4deg; width: min(260px, 80vw); aspect-ratio: 3 / 4; border-radius: 8px; background: #1d1d1f; border: 1px solid #333333; color: #f5f5f7; box-shadow: rgba(0,0,0,0.22) 3px 5px 30px 0px; display: flex; flex-direction: column; justify-content: space-between; padding: 28px; box-sizing: border-box; text-align: left">
-<div style="font-size: 12px; color: #a1a1a6; letter-spacing: 0.08em">ฉบับคนจริง · เล่ม 1</div>
-<div><div style="font-size: 26px; font-weight: 600; line-height: 1.2">คลิปแรก<br>ที่ขายได้</div><div style="margin-top: 10px; font-size: 13px; font-weight: 300; color: #d2d2d7">6 บท · Script Bank 10 ตัว · Score Card Worksheet</div></div>
-<div style="font-size: 12px; color: #a1a1a6">Kuim-เริ่มก่อนพร้อม</div>
-</div>
-<div class="float" style="--r: 4deg; animation-delay: -3s; width: min(260px, 80vw); aspect-ratio: 3 / 4; border-radius: 8px; background: #ffffff; color: #1d1d1f; border: 1px solid #d2d2d7; box-shadow: rgba(0,0,0,0.22) 3px 5px 30px 0px; display: flex; flex-direction: column; justify-content: space-between; padding: 28px; box-sizing: border-box; text-align: left">
-<div style="font-size: 12px; color: #707070; letter-spacing: 0.08em">ฉบับคนจริง · เล่ม 2</div>
-<div><div style="font-size: 26px; font-weight: 600; line-height: 1.2">ระบบที่ขายได้<br>ทุกเดือน</div><div style="margin-top: 10px; font-size: 13px; font-weight: 300; color: #474747">6 บท · แผนแคมเปญเลขคู่ · ปฏิทิน 30 วัน</div></div>
-<div style="font-size: 12px; color: #707070">Kuim-เริ่มก่อนพร้อม</div>
-</div>
-</div>
-</div>
-</section>
 
-<section class="nr" aria-hidden="true" style="background: #0071e3; color: #ffffff; padding: 18px 0; overflow: hidden">
-<div class="track">
-<span style="padding: 0 28px; font-size: 19px; white-space: nowrap">“ถ้ายังใส่กางเกงทรงนี้ไปเรียนอยู่ — หยุดก่อน”<span style="opacity: 0.6; padding-left: 56px">●</span></span><span style="padding: 0 28px; font-size: 19px; white-space: nowrap">“กางเกงที่ทำให้ดูสูงขึ้น โดยไม่ต้องใส่ส้น”<span style="opacity: 0.6; padding-left: 56px">●</span></span><span style="padding: 0 28px; font-size: 19px; white-space: nowrap">“เสื้อเชิ้ตขาวตัวเดียว ใส่ได้ 5 งาน ผมลองให้ดู”<span style="opacity: 0.6; padding-left: 56px">●</span></span><span style="padding: 0 28px; font-size: 19px; white-space: nowrap">“3 อย่างที่ทำให้ผู้ชายดูแก่กว่าวัย”<span style="opacity: 0.6; padding-left: 56px">●</span></span><span style="padding: 0 28px; font-size: 19px; white-space: nowrap">“งบ 500 แต่งตัวให้ดูแพงได้ไหม?”<span style="opacity: 0.6; padding-left: 56px">●</span></span><span style="padding: 0 28px; font-size: 19px; white-space: nowrap">“เพื่อนถามว่าซื้อกางเกงที่ไหน ตอบทีเดียวตรงนี้”<span style="opacity: 0.6; padding-left: 56px">●</span></span><span style="padding: 0 28px; font-size: 19px; white-space: nowrap">“ซื้อเสื้อผ้าทุกเดือน แต่ใส่จริงแค่ไม่กี่ตัว”<span style="opacity: 0.6; padding-left: 56px">●</span></span><span style="padding: 0 28px; font-size: 19px; white-space: nowrap">“ตัวเดียวกัน ราคาต่างกันสามเท่า”<span style="opacity: 0.6; padding-left: 56px">●</span></span><span style="padding: 0 28px; font-size: 19px; white-space: nowrap">“นักศึกษาชายที่แต่งตัวดี มีแค่ 4 ชิ้นนี้”<span style="opacity: 0.6; padding-left: 56px">●</span></span><span style="padding: 0 28px; font-size: 19px; white-space: nowrap">“ถ้ายังใส่กางเกงทรงนี้ไปเรียนอยู่ — หยุดก่อน”<span style="opacity: 0.6; padding-left: 56px">●</span></span><span style="padding: 0 28px; font-size: 19px; white-space: nowrap">“กางเกงที่ทำให้ดูสูงขึ้น โดยไม่ต้องใส่ส้น”<span style="opacity: 0.6; padding-left: 56px">●</span></span><span style="padding: 0 28px; font-size: 19px; white-space: nowrap">“เสื้อเชิ้ตขาวตัวเดียว ใส่ได้ 5 งาน ผมลองให้ดู”<span style="opacity: 0.6; padding-left: 56px">●</span></span><span style="padding: 0 28px; font-size: 19px; white-space: nowrap">“3 อย่างที่ทำให้ผู้ชายดูแก่กว่าวัย”<span style="opacity: 0.6; padding-left: 56px">●</span></span><span style="padding: 0 28px; font-size: 19px; white-space: nowrap">“งบ 500 แต่งตัวให้ดูแพงได้ไหม?”<span style="opacity: 0.6; padding-left: 56px">●</span></span><span style="padding: 0 28px; font-size: 19px; white-space: nowrap">“เพื่อนถามว่าซื้อกางเกงที่ไหน ตอบทีเดียวตรงนี้”<span style="opacity: 0.6; padding-left: 56px">●</span></span><span style="padding: 0 28px; font-size: 19px; white-space: nowrap">“ซื้อเสื้อผ้าทุกเดือน แต่ใส่จริงแค่ไม่กี่ตัว”<span style="opacity: 0.6; padding-left: 56px">●</span></span><span style="padding: 0 28px; font-size: 19px; white-space: nowrap">“ตัวเดียวกัน ราคาต่างกันสามเท่า”<span style="opacity: 0.6; padding-left: 56px">●</span></span><span style="padding: 0 28px; font-size: 19px; white-space: nowrap">“นักศึกษาชายที่แต่งตัวดี มีแค่ 4 ชิ้นนี้”<span style="opacity: 0.6; padding-left: 56px">●</span></span>
+<section id="check"><div class="w" style="text-align:center">
+<div class="eye rv">เช็คใน 5 วินาที</div>
+<h2 class="rv" style="margin-top:14px;font-size:clamp(32px,5vw,52px)">ตอนนี้ช่องคุณ<span class="glow">ติดตรงไหน?</span></h2>
+<div class="q grid rv" style="margin-top:40px">
+<button type="button" data-k="1" aria-pressed="false">😶 วิวน้อย คนไถผ่าน</button>
+<button type="button" data-k="2" aria-pressed="false">👀 วิวเยอะ แต่ไม่มีใครซื้อ</button>
+<button type="button" data-k="3" aria-pressed="false">📉 ขายได้ แต่รายได้ไม่นิ่ง</button>
 </div>
-</section>
+<div id="ans" class="card gcard" style="margin-top:22px;text-align:left;display:none" aria-live="polite"></div>
+</div></section>
 
-<section id="diagnose" style="background: #ffffff; padding: 96px 16px">
-<div style="max-width: 980px; margin: 0 auto">
-<p style="margin: 0 0 12px; font-size: 17px; color: #707070; text-align: center">คุณติดอยู่ตรงไหน</p>
-<h2 style="margin: 0 0 56px; font-size: clamp(32px, 5vw, 48px); font-weight: 600; line-height: 1.15; text-align: center">ปัญหามีแค่ 3 แบบ<br>ทุกแบบมีบทที่แก้ให้</h2>
-<div class="kids" style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); border-top: 1px solid #d2d2d7">
-<div style="padding: 32px 24px 32px 0; border-bottom: 1px solid #d2d2d7; display: flex; flex-direction: column; gap: 10px">
-<div style="font-size: 14px; color: #707070">อาการที่ 1</div>
-<div style="font-size: 24px; font-weight: 600">view น้อย</div>
-<p style="margin: 0; font-size: 17px; line-height: 1.5; color: #333333">คนไถผ่านใน 3 วิแรก เพราะคุณเปิดคลิปด้วย "สวัสดีครับ วันนี้มาแนะนำ…"</p>
-<div style="font-size: 14px; color: #0066cc">เล่ม 1 · บทที่ 04 Hook 3 วินาที</div>
+<section style="background:var(--bg2)"><div class="w">
+<div class="grid" style="align-items:center">
+<div class="rv">
+<div class="eye">ก่อนคุณถ่ายคลิปถัดไป</div>
+<h2 style="margin-top:14px;font-size:clamp(32px,5vw,50px)">CTR ดูดี<br><span class="glowr">แต่สินค้ากำลังตาย</span></h2>
+<p class="mu">Score Card 6 ตัวเลข ดูฟรีในหน้า “ข้อมูลโปรโมชั่น” ของ TikTok ใช้ไม่เกิน 5 นาที ก่อนคุณเสียแรงถ่ายทั้งวันให้สินค้าที่ไม่มีใครซื้อแล้ว</p>
 </div>
-<div style="padding: 32px 24px 32px 0; border-bottom: 1px solid #d2d2d7; display: flex; flex-direction: column; gap: 10px">
-<div style="font-size: 14px; color: #707070">อาการที่ 2</div>
-<div style="font-size: 24px; font-weight: 600">view เยอะ ไม่มีใครซื้อ</div>
-<p style="margin: 0; font-size: 17px; line-height: 1.5; color: #333333">คนดูจบแต่ไม่อยากได้ สคริปต์เล่าเหมือนโฆษณา หรือเลือกสินค้าที่อิ่มตัวไปแล้ว</p>
-<div style="font-size: 14px; color: #0066cc">เล่ม 1 · บทที่ 03, 05, 06</div>
-</div>
-<div style="padding: 32px 0; border-bottom: 1px solid #d2d2d7; display: flex; flex-direction: column; gap: 10px">
-<div style="font-size: 14px; color: #707070">อาการที่ 3</div>
-<div style="font-size: 24px; font-weight: 600">ขายได้ แต่ไม่นิ่ง</div>
-<p style="margin: 0; font-size: 17px; line-height: 1.5; color: #333333">สัปดาห์นี้ดีจนนอนไม่หลับ สัปดาห์หน้าเงียบจนอยากเลิก เพราะยังไม่มีระบบ</p>
-<div style="font-size: 14px; color: #0066cc">เล่ม 2 · บทที่ 01, 02, 04</div>
+<div class="card gcard rv">
+<div class="k" style="font-size:18px">ตัวอย่างจริงในเล่ม 1 · กางเกง</div>
+<div class="row"><span class="mu" style="flex:1">CTR 7 วัน</span><span>6.6%</span></div>
+<div class="row"><span class="mu" style="flex:1">ออเดอร์ 7 วัน / 30 วัน</span><span>7 / 92</span></div>
+<div class="row" style="align-items:baseline"><span class="mu" style="flex:1">Razor Momentum</span><span class="k glow" style="font-size:52px;font-weight:900"><span data-n="30">0</span>%</span></div>
+<div style="height:8px;border-radius:9px;background:var(--line);overflow:hidden"><div id="bar" style="width:0;height:8px;background:var(--red);box-shadow:0 0 16px var(--red);transition:width 1.6s cubic-bezier(.2,.7,.2,1)"></div></div>
+<p class="mu" style="margin:12px 0 0;font-size:15px">ต่ำกว่า 50% = สินค้ากำลังลง → ข้าม</p>
 </div>
 </div>
-</div>
-</section>
+</div></section>
 
-<section style="background: #f5f5f7; padding: 96px 16px; text-align: center">
-<div style="max-width: 980px; margin: 0 auto">
-<h2 style="margin: 0 0 16px; font-size: clamp(32px, 5vw, 48px); font-weight: 600; line-height: 1.15"><span class="grad2">353,000 วิว</span><br>แต่มีคนตามผมแค่ 34 คน</h2>
-<p style="margin: 0 auto 56px; max-width: 640px; font-size: 21px; font-weight: 300; line-height: 1.45">ผมโชว์ตัวเลขนี้ในเล่ม เพราะถ้าโชว์แต่ตัวเลขสวยๆ เล่มนี้ก็เป็นแค่โฆษณาอีกชิ้น ทุกอย่างข้างในคือสิ่งที่ผมลองเอง พลาดเอง แล้วจดไว้</p>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(200px, 1fr)); gap: 40px">
-<div><div style="font-size: 48px; font-weight: 600; line-height: 1">มือถือ 1</div><div style="margin-top: 8px; font-size: 14px; color: #707070">เครื่อง ไม่มีทีม ไม่มีสตูดิโอ</div></div>
-<div><div style="font-size: 48px; font-weight: 600; line-height: 1">5 หลัก</div><div style="margin-top: 8px; font-size: 14px; color: #707070">รายได้ต่อเดือนตอนนี้</div></div>
-<div><div style="font-size: 48px; font-weight: 600; line-height: 1">100K</div><div style="margin-top: 8px; font-size: 14px; color: #707070">เป้าที่ยังไม่ถึง — ผมไม่แกล้งทำเป็นว่าถึงแล้ว</div></div>
+<section id="books"><div class="w">
+<div class="eye rv" style="text-align:center">2 เล่ม 2 ขั้น</div>
+<h2 class="rv" style="text-align:center;margin:14px 0 48px;font-size:clamp(32px,5vw,52px)">อ่านตามลำดับ <span class="glow">ทำตามได้ทันที</span></h2>
+<div class="grid">
+<div class="card rv"><div class="eye" style="font-size:12px">เล่ม 1</div><h3 style="font-size:28px;margin:6px 0 14px">คลิปแรกที่ขายได้</h3>
+<div class="row"><i>01</i><span><b>ก่อนที่คุณจะเริ่ม</b> — กับดัก 3 แบบ + ตารางวินิจฉัยตัวเลข</span></div>
+<div class="row"><i>02</i><span><b>กฎ ABCD</b> — เลือกสนามรบให้ถูก</span></div>
+<div class="row"><i>03</i><span><b>Product Score Card</b> — 6 ตัวเลขก่อนรับสินค้า</span></div>
+<div class="row"><i>04</i><span><b>Hook 3 วินาที</b></span></div>
+<div class="row"><i>05</i><span><b>Script ที่ขายได้</b></span></div>
+<div class="row"><i>06</i><span><b>CTA ที่ไม่น่าเกลียด</b></span></div>
+<div class="row"><i>★</i><span><b>Script Bank 10 ตัว</b> + Worksheet & Checklist</span></div></div>
+<div class="card gcard rv"><div class="eye" style="font-size:12px">เล่ม 2</div><h3 style="font-size:28px;margin:6px 0 14px">ระบบที่ขายได้<span class="glow">ทุกเดือน</span></h3>
+<div class="row"><i>01</i><span><b>ระบบ 5 คลิป/สัปดาห์</b> — ขายจริงแค่ 1.5 คลิป</span></div>
+<div class="row"><i>02</i><span><b>อ่าน Analytics ให้เป็น</b> — 3 ตัวเลขที่ต้องดู</span></div>
+<div class="row"><i>03</i><span><b>แคมเปญ 11.11 / 12.12</b> — แผน D-14 ถึง D+3</span></div>
+<div class="row"><i>04</i><span><b>Scale จาก 5 หลักไปต่อ</b></span></div>
+<div class="row"><i>05</i><span><b>ใช้ AI ให้ถูก ไม่ให้โดนลบ</b></span></div>
+<div class="row"><i>06</i><span><b>ภาษีของคนทำ Affiliate</b> — 40(2), ภ.ง.ด.90</span></div>
+<div class="row"><i>★</i><span><b>ปฏิทินคอนเทนต์ 30 วัน</b> + บันทึกผล</span></div></div>
 </div>
-</div>
-</section>
+</div></section>
 
-<section style="background: #1d1d1f; color: #f5f5f7; padding: 96px 16px">
-<div style="max-width: 980px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 56px; align-items: center">
-<div style="flex: 1 1 380px; display: flex; flex-direction: column; gap: 16px">
-<p style="margin: 0; font-size: 17px; color: #a1a1a6">ก่อนคุณถ่ายคลิปถัดไป</p>
-<h2 style="margin: 0; font-size: clamp(32px, 5vw, 48px); font-weight: 600; line-height: 1.15">CTR ดูดี<br>แต่สินค้ากำลังตาย</h2>
-<p style="margin: 0; font-size: 19px; font-weight: 300; line-height: 1.5; color: #d2d2d7">Score Card 6 ตัวเลข ดูฟรีในหน้า "ข้อมูลโปรโมชั่น" ของ TikTok ใช้ไม่เกิน 5 นาที ก่อนคุณเสียแรงถ่ายทั้งวันให้สินค้าที่ไม่มีใครซื้อแล้ว</p>
-</div>
-<div style="flex: 1 1 340px; border: 1px solid #333333; border-radius: 8px; padding: 24px; display: flex; flex-direction: column; gap: 14px">
-<div style="font-size: 17px; font-weight: 600">ตัวอย่างจริงในเล่ม 1 · กางเกง</div>
-<div style="display: flex; justify-content: space-between; font-size: 14px; border-top: 1px solid #333333; padding-top: 12px"><span style="color: #a1a1a6">CTR 7 วัน</span><span>6.6%</span></div>
-<div style="display: flex; justify-content: space-between; font-size: 14px"><span style="color: #a1a1a6">ออเดอร์ 7 วัน / 30 วัน</span><span>7 / 92</span></div>
-<div style="display: flex; justify-content: space-between; align-items: baseline; border-top: 1px solid #333333; padding-top: 12px"><span style="font-size: 14px; color: #a1a1a6">Razor Momentum</span><span style="font-size: 40px; font-weight: 600">30%</span></div>
-<div style="height: 6px; border-radius: 980px; background: #333333"><div class="bar" style="width: 30%; height: 6px; border-radius: 980px; background: #2997ff"></div></div>
-<div style="font-size: 14px; color: #d2d2d7">ต่ำกว่า 50% = สินค้ากำลังลง ข้ามไป</div>
-</div>
-</div>
-</section>
+<section style="background:var(--bg2);text-align:center;overflow:hidden">
+<div class="orb" style="width:520px;height:520px;left:50%;top:0;margin-left:-260px;background:var(--red);opacity:.3"></div>
+<div class="w" style="position:relative">
+<div class="eye rv" id="cdlabel">นับถอยหลัง</div>
+<h2 class="rv" style="margin:14px 0 10px;font-size:clamp(30px,5vw,50px)">ถ้าเริ่มพูดถึงสินค้าวันเลขคู่<br><span class="glow">คุณช้าไปแล้ว 14 วัน</span></h2>
+<p class="rv mu" id="cdsub" style="max-width:640px;margin:0 auto 28px">คนไม่ได้ตัดสินใจซื้อในวันเลขคู่ เขาตัดสินใจตั้งแต่สัปดาห์ก่อน แล้วรอกดจ่าย เล่ม 2 บทที่ 03 คือแผนรายวันตั้งแต่ D-14</p>
+<div class="cd rv" aria-live="off"><div><b id="dd">--</b>วัน</div><div><b id="hh">--</b>ชม.</div><div><b id="mm">--</b>นาที</div><div><b id="ss">--</b>วินาที</div></div>
+<div class="rv" style="margin-top:30px"><a class="btn b1" href="https://buy.stripe.com/dRmfZ947ja4w3TJ7cM9EI02">เอาแผนไปใช้ให้ทัน</a></div>
+</div></section>
 
-<section id="books" style="background: #ffffff; padding: 96px 16px">
-<div style="max-width: 980px; margin: 0 auto">
-<h2 style="margin: 0 0 12px; font-size: clamp(32px, 5vw, 48px); font-weight: 600; line-height: 1.15; text-align: center">2 เล่ม 2 ขั้น</h2>
-<p style="margin: 0 0 56px; font-size: 21px; font-weight: 300; text-align: center">อ่านตามลำดับ เล่ม 2 ต่อยอดจากเล่ม 1 ทุกบท</p>
-<div style="display: flex; flex-wrap: wrap; gap: 56px">
-<div style="flex: 1 1 400px">
-<div style="font-size: 14px; color: #707070">เล่ม 1</div>
-<h3 style="margin: 4px 0 20px; font-size: 28px; font-weight: 600">คลิปแรกที่ขายได้</h3>
-<div style="display: flex; gap: 16px; padding: 14px 0; border-top: 1px solid #d2d2d7"><span style="font-size: 14px; color: #707070; min-width: 24px">01</span><span style="font-size: 17px"><b style="font-weight: 600">ก่อนที่คุณจะเริ่ม</b> — กับดัก 3 แบบ + ตารางวินิจฉัยตัวเลข</span></div>
-<div style="display: flex; gap: 16px; padding: 14px 0; border-top: 1px solid #d2d2d7"><span style="font-size: 14px; color: #707070; min-width: 24px">02</span><span style="font-size: 17px"><b style="font-weight: 600">กฎ ABCD</b> — เลือกสนามรบให้ถูก</span></div>
-<div style="display: flex; gap: 16px; padding: 14px 0; border-top: 1px solid #d2d2d7"><span style="font-size: 14px; color: #707070; min-width: 24px">03</span><span style="font-size: 17px"><b style="font-weight: 600">Product Score Card</b> — 6 ตัวเลขก่อนรับสินค้า</span></div>
-<div style="display: flex; gap: 16px; padding: 14px 0; border-top: 1px solid #d2d2d7"><span style="font-size: 14px; color: #707070; min-width: 24px">04</span><span style="font-size: 17px"><b style="font-weight: 600">Hook 3 วินาที</b></span></div>
-<div style="display: flex; gap: 16px; padding: 14px 0; border-top: 1px solid #d2d2d7"><span style="font-size: 14px; color: #707070; min-width: 24px">05</span><span style="font-size: 17px"><b style="font-weight: 600">Script ที่ขายได้</b></span></div>
-<div style="display: flex; gap: 16px; padding: 14px 0; border-top: 1px solid #d2d2d7"><span style="font-size: 14px; color: #707070; min-width: 24px">06</span><span style="font-size: 17px"><b style="font-weight: 600">CTA ที่ไม่น่าเกลียด</b></span></div>
-<div style="display: flex; gap: 16px; padding: 14px 0; border-top: 1px solid #d2d2d7; border-bottom: 1px solid #d2d2d7"><span style="font-size: 14px; color: #707070; min-width: 24px">★</span><span style="font-size: 17px"><b style="font-weight: 600">Script Bank 10 ตัว</b> + Worksheet & Checklist</span></div>
+<section><div class="w">
+<div class="grid">
+<div class="card rv"><h3 style="font-size:26px;margin-bottom:10px">เหมาะกับคุณ ถ้า</h3>
+<div class="row"><i>✓</i><span>เริ่มทำ Affiliate แล้ว แต่ไม่รู้ว่าทำไมขายไม่ได้</span></div>
+<div class="row"><i>✓</i><span>มีแค่มือถือ ไม่มีทุน ไม่มีทีม</span></div>
+<div class="row"><i>✓</i><span>ขายได้บ้างแล้ว แต่รายได้ขึ้นๆ ลงๆ</span></div>
+<div class="row"><i>✓</i><span>ขายสายแฟชั่น / ไลฟ์สไตล์ ช่วงราคา 300–1,500 บาท</span></div></div>
+<div class="card rv"><h3 style="font-size:26px;margin-bottom:10px">ไม่ต้องซื้อ ถ้า</h3>
+<div class="row"><i style="color:var(--mu)">✕</i><span class="mu">หาสูตรรวยใน 7 วัน — ในเล่มบอกตรงๆ ว่า 1–3 เดือนแรกหนักสุด</span></div>
+<div class="row"><i style="color:var(--mu)">✕</i><span class="mu">ไม่อยากถ่ายคลิปเองสัปดาห์ละ 5 คลิป</span></div>
+<div class="row"><i style="color:var(--mu)">✕</i><span class="mu">ทำรายได้ 6 หลักอยู่แล้ว — คุณรู้ส่วนใหญ่ในนี้แล้ว</span></div></div>
 </div>
-<div style="flex: 1 1 400px">
-<div style="font-size: 14px; color: #707070">เล่ม 2</div>
-<h3 style="margin: 4px 0 20px; font-size: 28px; font-weight: 600">ระบบที่ขายได้ทุกเดือน</h3>
-<div style="display: flex; gap: 16px; padding: 14px 0; border-top: 1px solid #d2d2d7"><span style="font-size: 14px; color: #707070; min-width: 24px">01</span><span style="font-size: 17px"><b style="font-weight: 600">ระบบ 5 คลิป/สัปดาห์</b> — ขายจริงแค่ 1.5 คลิป</span></div>
-<div style="display: flex; gap: 16px; padding: 14px 0; border-top: 1px solid #d2d2d7"><span style="font-size: 14px; color: #707070; min-width: 24px">02</span><span style="font-size: 17px"><b style="font-weight: 600">อ่าน Analytics ให้เป็น</b> — 3 ตัวเลขที่ต้องดู</span></div>
-<div style="display: flex; gap: 16px; padding: 14px 0; border-top: 1px solid #d2d2d7"><span style="font-size: 14px; color: #707070; min-width: 24px">03</span><span style="font-size: 17px"><b style="font-weight: 600">แคมเปญ 11.11 / 12.12</b> — แผน D-14 ถึง D+3</span></div>
-<div style="display: flex; gap: 16px; padding: 14px 0; border-top: 1px solid #d2d2d7"><span style="font-size: 14px; color: #707070; min-width: 24px">04</span><span style="font-size: 17px"><b style="font-weight: 600">Scale จาก 5 หลักไปต่อ</b></span></div>
-<div style="display: flex; gap: 16px; padding: 14px 0; border-top: 1px solid #d2d2d7"><span style="font-size: 14px; color: #707070; min-width: 24px">05</span><span style="font-size: 17px"><b style="font-weight: 600">ใช้ AI ให้ถูก ไม่ให้โดนลบ</b></span></div>
-<div style="display: flex; gap: 16px; padding: 14px 0; border-top: 1px solid #d2d2d7"><span style="font-size: 14px; color: #707070; min-width: 24px">06</span><span style="font-size: 17px"><b style="font-weight: 600">ภาษีของคนทำ Affiliate</b> — 40(2), ภ.ง.ด.90</span></div>
-<div style="display: flex; gap: 16px; padding: 14px 0; border-top: 1px solid #d2d2d7; border-bottom: 1px solid #d2d2d7"><span style="font-size: 14px; color: #707070; min-width: 24px">★</span><span style="font-size: 17px"><b style="font-weight: 600">ปฏิทินคอนเทนต์ 30 วัน</b> + บันทึกผล</span></div>
-</div>
-</div>
-</div>
-</section>
+<p class="rv" style="text-align:center;margin:40px auto 0;max-width:640px;font-size:20px">เล่มนี้ไม่สอนให้หลอกคนดู ไม่มี Before/After ทำด้วย AI ไม่มีรีวิวปลอม<br><span class="mu">และหน้านี้ก็ไม่มีคำว่า “เหลือน้อย” เพราะมันไม่จริง</span></p>
+</div></section>
 
-<section style="background: #f5f5f7; padding: 96px 16px">
-<div style="max-width: 980px; margin: 0 auto">
-<p style="margin: 0 0 12px; font-size: 17px; color: #707070; text-align: center">ตัวอย่างจาก Script Bank</p>
-<h2 style="margin: 0 0 48px; font-size: clamp(32px, 5vw, 48px); font-weight: 600; line-height: 1.15; text-align: center">Hook ที่เอาไปถ่ายได้คืนนี้</h2>
-<div style="display: grid; grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); gap: 40px">
-<p style="margin: 0; border-top: 1px solid #d2d2d7; padding-top: 20px; font-size: 21px; font-weight: 300; line-height: 1.45">"เสื้อเชิ้ตขาวตัวเดียว ใส่ได้ 5 งาน ผมลองให้ดู"</p>
-<p style="margin: 0; border-top: 1px solid #d2d2d7; padding-top: 20px; font-size: 21px; font-weight: 300; line-height: 1.45">"ตัวเดียวกัน ราคาต่างกันสามเท่า ผมใส่เทียบให้ดู"</p>
-<p style="margin: 0; border-top: 1px solid #d2d2d7; padding-top: 20px; font-size: 21px; font-weight: 300; line-height: 1.45">"ซื้อเสื้อผ้าทุกเดือน แต่ใส่จริงแค่ไม่กี่ตัว — คุณเป็นแบบนี้ไหม"</p>
+<section id="buy" style="background:var(--bg2);overflow:hidden">
+<div class="orb" style="width:600px;height:600px;right:-200px;top:-100px;background:var(--gold);opacity:.1"></div>
+<div class="w" style="position:relative">
+<h2 class="rv" style="text-align:center;font-size:clamp(38px,6vw,60px);margin-bottom:12px">เลือกจุดเริ่มของคุณ</h2>
+<p class="rv mu" style="text-align:center;margin:0 0 44px">279 บาท ≈ วันละ 9 บาท ในเดือนแรก · ถูกกว่าเวลาที่เสียไปกับสินค้าตัวผิดแค่วันเดียว</p>
+<div class="grid" style="max-width:920px;margin:0 auto">
+<div class="card gcard rv" style="text-align:center;position:relative;padding:40px 28px">
+<div style="position:absolute;top:-14px;left:50%;transform:translateX(-50%);background:var(--gold);color:#1A1011;font:700 13px Kanit;padding:5px 16px;border-radius:999px;white-space:nowrap">แนะนำ · ครบทั้งระบบ</div>
+<div class="k" style="font-size:26px">Bundle เล่ม 1 + เล่ม 2</div>
+<div class="k glow" style="font-size:72px;font-weight:900;margin:10px 0 0">279<span style="font-size:22px;font-weight:500"> บาท</span></div>
+<p style="margin:6px 0 0;font-weight:600">จ่ายเพิ่มจากเล่ม 1 แค่ 80 บาท ได้เล่ม 2 ทั้งเล่ม</p>
+<p class="mu" style="font-size:15px">12 บท · Script Bank 10 ตัว · แผน 11.11/12.12 · ปฏิทิน 30 วัน · บทภาษี</p>
+<a class="btn b1" style="width:100%;margin-top:6px" href="https://buy.stripe.com/dRmfZ947ja4w3TJ7cM9EI02">ซื้อ Bundle 279 บาท</a>
 </div>
-<p style="margin: 40px 0 0; font-size: 17px; color: #707070; text-align: center">ในเล่มมี 10 ตัว พร้อมสคริปต์เต็มทุกส่วน</p>
+<div class="card rv" style="text-align:center;padding:40px 28px">
+<div class="eye" style="font-size:12px;color:var(--mu)">เพิ่งเริ่ม</div>
+<div class="k" style="font-size:26px;margin-top:6px">เล่ม 1 อย่างเดียว</div>
+<div class="k" style="font-size:64px;font-weight:800;margin-top:10px">199<span style="font-size:22px;font-weight:500"> บาท</span></div>
+<p class="mu" style="font-size:15px">6 บท · Script Bank 10 ตัว · Score Card Worksheet</p>
+<a class="btn b2" style="width:100%;margin-top:6px" href="https://buy.stripe.com/28E00bdHTa4wduj54E9EI01">ซื้อเล่ม 1</a>
 </div>
-</section>
+</div>
+<p class="rv mu" style="text-align:center;font-size:15px;margin-top:26px">ไฟล์ PDF ส่งทันทีหลังจ่าย · พร้อมเพย์หรือบัตร · ถามก่อนซื้อ <a href="https://line.me/R/ti/p/@465oiavi">ทักไลน์ @465oiavi</a> · ยังไม่แน่ใจ? พิมพ์ “ฟรี” รับเล่มตัวอย่างก่อน</p>
+</div></section>
 
-<section style="background: #0071e3; color: #ffffff; padding: 104px 16px; text-align: center">
-<div style="max-width: 760px; margin: 0 auto; display: flex; flex-direction: column; align-items: center; gap: 20px">
-<p style="margin: 0; font-size: 17px; color: #dbeaff">D-14 ของ 11.11 คือ 28 ต.ค. · 12.12 ปีนี้ตรงกับวันเสาร์</p>
-<h2 style="margin: 0; font-size: clamp(32px, 5vw, 48px); font-weight: 600; line-height: 1.15">ถ้าคุณเพิ่งเริ่มพูดถึงสินค้า<br>ในวันที่ 12 — คุณช้าไปแล้ว 14 วัน</h2>
-<p style="margin: 0; font-size: 21px; font-weight: 300; line-height: 1.45">คนไม่ได้ตัดสินใจซื้อวันเลขคู่ เขาตัดสินใจตั้งแต่สัปดาห์ก่อน แล้วรอกดจ่าย เล่ม 2 บทที่ 03 คือแผนรายวันตั้งแต่ D-14 ว่าต้องโพสต์อะไร พูดอะไร ใช้ CTA ระดับไหน</p>
-<a href="https://buy.stripe.com/dRmfZ947ja4w3TJ7cM9EI02" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 22px; border-radius: 980px; background: #ffffff; color: #0058b0; font-size: 17px; font-weight: 600; margin-top: 8px">เอาแผนไปใช้ทัน 11.11</a>
-</div>
-</section>
+<section><div class="w" style="max-width:760px">
+<h2 class="rv" style="font-size:clamp(30px,4.5vw,44px);margin-bottom:20px">คำถามก่อนซื้อ</h2>
+<details class="rv"><summary>follower น้อยมาก ใช้ได้ไหม?</summary><p>ได้ วันที่ผมมีรายได้ครั้งแรก follower หลักร้อย TikTok ดูว่าคนดูจบไหม ไม่ได้ดูว่าคุณมีคนตามกี่คน เล่ม 1 เริ่มจากตรงนี้</p></details>
+<details class="rv"><summary>ไม่ได้ขายเสื้อผ้า ใช้ได้ไหม?</summary><p>หลัก Score Card, Hook และระบบ 5 คลิปใช้ได้กับทุกหมวด แต่ตัวอย่างในเล่มเป็นสายแฟชั่น/ไลฟ์สไตล์ 300–1,500 บาท ถ้าขายของแพงหรือน้ำหอม เล่มนี้อาจไม่ตรง</p></details>
+<details class="rv"><summary>ซื้อเล่ม 1 ไปก่อน แล้วค่อยเพิ่มเล่ม 2 ได้ไหม?</summary><p>ได้ ทักไลน์มา แต่ซื้อ Bundle ทีเดียวถูกกว่า</p></details>
+<details class="rv"><summary>ได้ไฟล์ยังไง?</summary><p>หลังจ่ายเงินผ่าน Stripe จะได้ลิงก์ไฟล์ PDF ทันที อ่านได้ทั้งมือถือและคอม</p></details>
+<p class="rv" style="text-align:center;margin-top:48px;font-size:20px;font-weight:300">“ความรู้ที่ไม่ได้ใช้ ไม่ได้ทำให้ใครขายของได้สักชิ้น”</p>
+<p class="mu" style="text-align:center;font-size:14px">— Kuim-เริ่มก่อนพร้อม</p>
+</div></section>
 
-<section style="background: #ffffff; padding: 96px 16px; text-align: center">
-<div style="max-width: 760px; margin: 0 auto">
-<h2 style="margin: 0 0 20px; font-size: clamp(32px, 5vw, 48px); font-weight: 600; line-height: 1.15">เล่มนี้ไม่สอนให้หลอกคนดู</h2>
-<p style="margin: 0; font-size: 21px; font-weight: 300; line-height: 1.45">ไม่มี Before/After ทำด้วย AI ไม่มีรีวิวปลอม ไม่พูด "เหลือน้อย" ถ้าไม่จริง เพราะคลิปที่ขายได้ระยะยาว มาจากคนดูที่เชื่อว่าคุณพูดจริง ไม่ใช่จากทริค</p>
-</div>
-</section>
+<footer style="border-top:1px solid var(--line);padding:28px 0 110px"><div class="w" style="display:flex;justify-content:space-between;flex-wrap:wrap;gap:10px;font-size:13px" class="mu">
+<span class="mu">TikTok Affiliate ฉบับคนจริง · Kuim-เริ่มก่อนพร้อม @imrondachuda</span><span class="mu">ผลลัพธ์ขึ้นกับการลงมือทำของแต่ละคน ไม่รับประกันรายได้</span>
+</div></footer>
 
-<section id="who" style="background: #f5f5f7; padding: 96px 16px">
-<div style="max-width: 980px; margin: 0 auto; display: flex; flex-wrap: wrap; gap: 56px">
-<div style="flex: 1 1 380px">
-<h3 style="margin: 0 0 20px; font-size: 28px; font-weight: 600">เหมาะกับคุณ ถ้า</h3>
-<p style="margin: 0; padding: 14px 0; border-top: 1px solid #d2d2d7; font-size: 17px; line-height: 1.5">เริ่มทำ Affiliate แล้ว แต่ไม่รู้ว่าทำไมขายไม่ได้</p>
-<p style="margin: 0; padding: 14px 0; border-top: 1px solid #d2d2d7; font-size: 17px; line-height: 1.5">มีแค่มือถือ ไม่มีทุน ไม่มีทีม</p>
-<p style="margin: 0; padding: 14px 0; border-top: 1px solid #d2d2d7; font-size: 17px; line-height: 1.5">ขายได้บ้างแล้ว แต่รายได้ขึ้นๆ ลงๆ</p>
-<p style="margin: 0; padding: 14px 0; border-top: 1px solid #d2d2d7; border-bottom: 1px solid #d2d2d7; font-size: 17px; line-height: 1.5">ขายสายแฟชั่น / ไลฟ์สไตล์ ช่วงราคา 300–1,500 บาท</p>
-</div>
-<div style="flex: 1 1 380px">
-<h3 style="margin: 0 0 20px; font-size: 28px; font-weight: 600">ไม่ต้องซื้อ ถ้า</h3>
-<p style="margin: 0; padding: 14px 0; border-top: 1px solid #d2d2d7; font-size: 17px; line-height: 1.5; color: #474747">หาสูตรรวยใน 7 วัน — ในเล่มบอกตรงๆ ว่า 1–3 เดือนแรกหนักสุด</p>
-<p style="margin: 0; padding: 14px 0; border-top: 1px solid #d2d2d7; font-size: 17px; line-height: 1.5; color: #474747">ไม่อยากถ่ายคลิปเองสัปดาห์ละ 5 คลิป</p>
-<p style="margin: 0; padding: 14px 0; border-top: 1px solid #d2d2d7; border-bottom: 1px solid #d2d2d7; font-size: 17px; line-height: 1.5; color: #474747">ทำรายได้ 6 หลักอยู่แล้ว — คุณรู้ส่วนใหญ่ในนี้แล้ว</p>
-</div>
-</div>
-</section>
+<div class="sticky" id="sb"><span class="k" style="font-size:15px">Bundle 2 เล่ม <span class="glow">279฿</span></span><a class="btn b1" style="min-height:42px;padding:0 20px;font-size:16px;animation:none" href="https://buy.stripe.com/dRmfZ947ja4w3TJ7cM9EI02">ซื้อเลย</a></div>
 
-<section id="buy" style="background: #f5f5f7; padding: 112px 16px">
-<div style="max-width: 980px; margin: 0 auto">
-<h2 style="margin: 0 0 56px; font-size: clamp(40px, 6vw, 56px); font-weight: 600; line-height: 1.1; text-align: center">เลือกจุดเริ่มของคุณ</h2>
-<div style="display: flex; flex-wrap: wrap; gap: 24px; justify-content: center">
-<div class="lift" style="flex: 1 1 360px; max-width: 460px; background: #ffffff; border: 2px solid #0071e3; border-radius: 8px; padding: 40px 32px; box-shadow: rgba(0,113,227,0.18) 0 20px 50px; box-sizing: border-box; display: flex; flex-direction: column; gap: 14px; text-align: center; align-items: center">
-<div style="font-size: 12px; font-weight: 600; color: #0066cc; letter-spacing: 0.06em">แนะนำ · ครบทั้งระบบ</div>
-<div style="font-size: 28px; font-weight: 600">Bundle เล่ม 1 + เล่ม 2</div>
-<div style="font-size: 56px; font-weight: 600; line-height: 1">279<span style="font-size: 21px; font-weight: 300"> บาท</span></div>
-<div style="font-size: 17px; font-weight: 600; color: #1d1d1f">เพิ่มจากเล่ม 1 แค่ 80 บาท ได้เล่ม 2 ทั้งเล่ม</div>
-<p style="margin: 0; font-size: 17px; line-height: 1.5; color: #474747">12 บท · Script Bank 10 ตัว · แผน 11.11/12.12 · ปฏิทิน 30 วัน · บทภาษี</p>
-<a class="pulse" href="https://buy.stripe.com/dRmfZ947ja4w3TJ7cM9EI02" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 28px; border-radius: 980px; background: #0071e3; color: #ffffff; font-size: 17px; margin-top: 8px">ซื้อ Bundle</a>
-</div>
-<div class="lift" style="flex: 1 1 360px; max-width: 460px; background: #ffffff; border: 1px solid #d2d2d7; border-radius: 8px; padding: 40px 32px; box-sizing: border-box; display: flex; flex-direction: column; gap: 14px; text-align: center; align-items: center">
-<div style="font-size: 12px; font-weight: 600; color: #707070; letter-spacing: 0.06em">เพิ่งเริ่ม</div>
-<div style="font-size: 28px; font-weight: 600">เล่ม 1 อย่างเดียว</div>
-<div style="font-size: 56px; font-weight: 600; line-height: 1">199<span style="font-size: 21px; font-weight: 300"> บาท</span></div>
-<p style="margin: 0; font-size: 17px; line-height: 1.5; color: #474747">6 บท · Script Bank 10 ตัว · Score Card Worksheet</p>
-<a href="https://buy.stripe.com/28E00bdHTa4wduj54E9EI01" style="display: inline-flex; align-items: center; min-height: 44px; padding: 0 28px; border-radius: 980px; border: 1px solid #0066cc; color: #0066cc; font-size: 17px; margin-top: 8px">ซื้อเล่ม 1</a>
-</div>
-</div>
-<p style="margin: 32px 0 0; font-size: 14px; color: #707070; text-align: center">ไฟล์ PDF · จ่ายผ่านพร้อมเพย์หรือบัตร · ถามก่อนซื้อ <a href="https://line.me/R/ti/p/@465oiavi">ทักไลน์ @465oiavi</a> · ยังไม่แน่ใจ? รับเล่มฟรีก่อน พิมพ์ "ฟรี"</p>
-<p style="margin: 40px auto 0; max-width: 520px; font-size: 19px; font-weight: 300; line-height: 1.5; text-align: center">"ความรู้ที่ไม่ได้ใช้ ไม่ได้ทำให้ใครขายของได้สักชิ้น"</p>
-<div style="font-size: 14px; color: #707070; text-align: center; margin-top: 8px">— Kuim-เริ่มก่อนพร้อม</div>
-</div>
-</section>
-
-<footer style="background: #f5f5f7; padding: 32px 16px; border-top: 1px solid #d2d2d7">
-<div style="max-width: 980px; margin: 0 auto; display: flex; justify-content: space-between; flex-wrap: wrap; gap: 12px; font-size: 12px; color: #707070">
-<span>TikTok Affiliate ฉบับคนจริง · Kuim-เริ่มก่อนพร้อม @imrondachuda</span>
-<span>ผลลัพธ์ขึ้นกับการลงมือทำของแต่ละคน ไม่รับประกันรายได้</span>
-</div>
-</footer>
-
-</div>
+<script>
+const io=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){e.target.classList.add('on');io.unobserve(e.target)}}),{threshold:.15});
+document.querySelectorAll('.rv').forEach(el=>io.observe(el));
+const bar=document.getElementById('bar'),num=document.querySelector('[data-n]');
+new IntersectionObserver((es,o)=>{if(es[0].isIntersecting){bar.style.width='30%';let n=0;const t=setInterval(()=>{num.textContent=++n;if(n>=30)clearInterval(t)},40);o.disconnect()}}).observe(bar);
+const A={1:['view น้อย = 3 วินาทีแรกยังหยุดคนไม่ได้','เล่ม 1 บทที่ 04 Hook 3 วินาที คือทางแก้ตรงจุด พร้อม Hook ที่ใช้ได้คืนนี้ใน Script Bank'],2:['วิวเยอะแต่ไม่มีคนซื้อ = สคริปต์เล่าเหมือนโฆษณา หรือสินค้าอิ่มตัว','เล่ม 1 บทที่ 03 Score Card + บทที่ 05–06 Script และ CTA ที่ไม่น่าเกลียด'],3:['ขายได้แต่ไม่นิ่ง = ยังไม่มีระบบ','เล่ม 2 บทที่ 01–02 ระบบ 5 คลิป/สัปดาห์ และวิธีอ่าน Analytics · แนะนำ Bundle']};
+const ans=document.getElementById('ans');
+document.querySelectorAll('.q button').forEach(b=>b.onclick=()=>{document.querySelectorAll('.q button').forEach(x=>x.setAttribute('aria-pressed',x===b));const a=A[b.dataset.k];ans.style.display='block';ans.innerHTML='<div class="k glow" style="font-size:22px">'+a[0]+'</div><p style="margin:10px 0 18px">'+a[1]+'</p><a class="btn b1" href="#buy">ดูราคา</a> <a class="btn b2" href="https://line.me/R/ti/p/@465oiavi">อ่านเล่มฟรีก่อน</a>'});
+// นับถอยหลังไป D-14 ของแคมเปญถัดไป (วันที่จริง ไม่ใช่ countdown ปลอม)
+const T=[['D-14 ของ 11.11',new Date('2026-10-28T00:00:00+07:00')],['11.11',new Date('2026-11-11T00:00:00+07:00')],['D-14 ของ 12.12',new Date('2026-11-28T00:00:00+07:00')],['12.12',new Date('2026-12-12T00:00:00+07:00')]];
+const p=n=>String(n).padStart(2,'0');
+function tick(){const now=Date.now(),t=T.find(x=>x[1]>now);if(!t){document.querySelector('.cd').style.display='none';return}let s=Math.floor((t[1]-now)/1000);document.getElementById('cdlabel').textContent='อีกเท่านี้ถึง '+t[0];dd.textContent=p(Math.floor(s/86400));hh.textContent=p(Math.floor(s%86400/3600));mm.textContent=p(Math.floor(s%3600/60));ss.textContent=p(s%60)}
+tick();setInterval(tick,1000);
+const sb=document.getElementById('sb'),buy=document.getElementById('buy');
+addEventListener('scroll',()=>{const r=buy.getBoundingClientRect();sb.classList.toggle('on',scrollY>700&&!(r.top<innerHeight&&r.bottom>0))},{passive:true});
+</script>
 </body>
 </html>
